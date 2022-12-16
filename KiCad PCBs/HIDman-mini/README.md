@@ -1,3 +1,4 @@
+[Home](/)
 # PCB: HIDman-mini
 
 ### Notes:
