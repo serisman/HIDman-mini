@@ -1,7 +1,7 @@
 # HIDman-mini
 A USB keyboard/mouse to PS/2 (or AT, Serial) computer adapter.
 
-Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman)
+Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman) by [rasteri](https://github.com/rasteri)
 
 ![Finished](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Finished.jpg?raw=true)
 
