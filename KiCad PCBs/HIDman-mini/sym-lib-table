@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CH55x)(type Legacy)(uri ${KIPRJMOD}/_libraries/CH55x.lib)(options "")(descr ""))
+)

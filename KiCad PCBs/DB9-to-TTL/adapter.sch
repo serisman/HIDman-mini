@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB9_Female P1
+U 1 1 637F236F
+P 6425 4250
+F 0 "P1" H 6425 4750 50  0000 L CNN
+F 1 "DB9_Female" H 6225 4850 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_EdgeMount_P2.77mm" H 6425 4250 50  0001 C CNN
+F 3 " ~" H 6425 4250 50  0001 C CNN
+	1    6425 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX232 U1
+U 1 1 637F3CC2
+P 5000 3750
+F 0 "U1" H 4550 4900 50  0000 C CNN
+F 1 "MAX3232" H 4550 4800 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 5050 2700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 5000 3850 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 637FACBD
+P 5000 4950
+F 0 "#PWR0102" H 5000 4700 50  0001 C CNN
+F 1 "GND" H 5005 4777 50  0000 C CNN
+F 2 "" H 5000 4950 50  0001 C CNN
+F 3 "" H 5000 4950 50  0001 C CNN
+	1    5000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 637FB6B6
+P 5800 3000
+F 0 "C3" H 5900 3000 50  0000 L CNN
+F 1 "1u" H 5900 2925 50  0000 L CNN
+F 2 "USER_Footprints:C_0603" H 5838 2850 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 637FC2F6
+P 4200 3000
+F 0 "C2" H 4100 3000 50  0000 R CNN
+F 1 "1u" H 4100 2925 50  0000 R CNN
+F 2 "USER_Footprints:C_0603" H 4238 2850 50  0001 C CNN
+F 3 "~" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 637FD34E
+P 5950 3650
+F 0 "C5" V 6075 3600 50  0000 L CNN
+F 1 "1u" V 5900 3475 50  0000 L CNN
+F 2 "USER_Footprints:C_0603" H 5988 3500 50  0001 C CNN
+F 3 "~" H 5950 3650 50  0001 C CNN
+	1    5950 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 637FDCCD
+P 5950 3350
+F 0 "C4" V 5825 3400 50  0000 R CNN
+F 1 "1u" V 6000 3275 50  0000 R CNN
+F 2 "USER_Footprints:C_0603" H 5988 3200 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5950 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3350 6100 3500
+$Comp
+L power:GND #PWR0103
+U 1 1 637FE686
+P 6100 3500
+F 0 "#PWR0103" H 6100 3250 50  0001 C CNN
+F 1 "GND" V 6105 3372 50  0000 R CNN
+F 2 "" H 6100 3500 50  0001 C CNN
+F 3 "" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6100 3500
+Wire Wire Line
+	6100 3500 6100 3650
+$Comp
+L power:GND #PWR0104
+U 1 1 6380015A
+P 3650 4325
+F 0 "#PWR0104" H 3650 4075 50  0001 C CNN
+F 1 "GND" H 3655 4152 50  0000 C CNN
+F 2 "" H 3650 4325 50  0001 C CNN
+F 3 "" H 3650 4325 50  0001 C CNN
+	1    3650 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 4350 6125 4350
+$Comp
+L power:GND #PWR0106
+U 1 1 63803A87
+P 6125 4650
+F 0 "#PWR0106" H 6125 4400 50  0001 C CNN
+F 1 "GND" H 6130 4477 50  0000 C CNN
+F 2 "" H 6125 4650 50  0001 C CNN
+F 3 "" H 6125 4650 50  0001 C CNN
+	1    6125 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 63804BD2
+P 3650 4175
+F 0 "C1" H 3550 4175 50  0000 R CNN
+F 1 "100n" H 3550 4100 50  0000 R CNN
+F 2 "USER_Footprints:C_0603" H 3688 4025 50  0001 C CNN
+F 3 "~" H 3650 4175 50  0001 C CNN
+	1    3650 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 638059BA
+P 3775 3275
+F 0 "J1" H 3725 3575 50  0000 L CNN
+F 1 "Conn_01x06" H 3825 3501 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 3775 3275 50  0001 C CNN
+F 3 "~" H 3775 3275 50  0001 C CNN
+	1    3775 3275
+	1    0    0    -1  
+$EndComp
+Text GLabel 3575 3175 0    50   Input ~ 0
+RXD
+Text GLabel 3575 3075 0    50   Output ~ 0
+TXD
+$Comp
+L power:GND #PWR0108
+U 1 1 6380725E
+P 3575 3475
+F 0 "#PWR0108" H 3575 3225 50  0001 C CNN
+F 1 "GND" V 3575 3350 50  0000 R CNN
+F 2 "" H 3575 3475 50  0001 C CNN
+F 3 "" H 3575 3475 50  0001 C CNN
+	1    3575 3475
+	0    1    1    0   
+$EndComp
+Text GLabel 3575 3275 0    50   Input ~ 0
+CTS
+Text GLabel 3575 3375 0    50   Output ~ 0
+RTS
+Text GLabel 4200 4450 0    50   Output ~ 0
+TXD
+Text GLabel 4200 4050 0    50   Input ~ 0
+RXD
+Text GLabel 4200 4250 0    50   Output ~ 0
+RTS
+Text GLabel 4200 3850 0    50   Input ~ 0
+CTS
+Wire Wire Line
+	5800 4050 6125 4050
+Wire Wire Line
+	5800 3850 5875 3850
+Wire Wire Line
+	5875 3850 5875 4350
+Wire Wire Line
+	5800 4450 6025 4450
+Wire Wire Line
+	6025 4450 6025 4250
+Wire Wire Line
+	6025 4250 6125 4250
+Wire Wire Line
+	5800 4250 5950 4250
+Wire Wire Line
+	5950 4250 5950 4150
+Wire Wire Line
+	5950 4150 6125 4150
+$Comp
+L power:VCC #PWR?
+U 1 1 6385862A
+P 5000 2550
+F 0 "#PWR?" H 5000 2400 50  0001 C CNN
+F 1 "VCC" H 5015 2723 50  0000 C CNN
+F 2 "" H 5000 2550 50  0001 C CNN
+F 3 "" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 63858E97
+P 3575 3575
+F 0 "#PWR?" H 3575 3425 50  0001 C CNN
+F 1 "VCC" V 3575 3700 50  0000 L CNN
+F 2 "" H 3575 3575 50  0001 C CNN
+F 3 "" H 3575 3575 50  0001 C CNN
+	1    3575 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 638594DF
+P 3650 4025
+F 0 "#PWR?" H 3650 3875 50  0001 C CNN
+F 1 "VCC" H 3665 4198 50  0000 C CNN
+F 2 "" H 3650 4025 50  0001 C CNN
+F 3 "" H 3650 4025 50  0001 C CNN
+	1    3650 4025
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
