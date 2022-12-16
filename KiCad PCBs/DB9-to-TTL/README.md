@@ -1,6 +1,8 @@
 [Home](/README.md)
 # PCB: DB9-to-TTL
 
+Order from [OSHPARK](https://oshpark.com/shared_projects/djSCnWyn) or upload [gerber.zip](output/gerber.zip) to your favorite PCB board fabricator.
+
 ### Notes:
 - Remember to cross-over TxD <--> RxD, and RTS <--> CTS when connecting to the main PCB!
 - The older MAX232 can be used in place of the MAX3232.  Might need to change the capacitor values.

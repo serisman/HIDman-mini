@@ -1,6 +1,8 @@
 [Home](/README.md)
 # PCB: HIDman-mini
 
+Order from [OSHPARK](https://oshpark.com/shared_projects/GPxhWAbz) or upload [gerber.zip](output/gerber.zip) to your favorite PCB board fabricator.
+
 ### Notes:
 - **WARNING!** Make sure you install the CH559 IC in the correct orientation!  There are three dots, making it confusing at a glance (as me how I know!)
 - **WARNING!** Make sure you install the USB port(s) in the correct orientation!
