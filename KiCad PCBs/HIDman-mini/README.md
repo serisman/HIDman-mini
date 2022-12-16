@@ -1,4 +1,4 @@
-[Home](/)
+[Home](/README.md)
 # PCB: HIDman-mini
 
 ### Notes:
