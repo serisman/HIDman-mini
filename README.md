@@ -22,6 +22,11 @@ Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman) by [ra
 
 NOTE: Remember to cross-over TxD <--> RxD, and RTS <--> CTS when connecting the two PCBs!
 
+### Combo PS/2 Keyboard/Mouse
+(for computers that support it)
+![Combo PS/2 Keyboard/Mouse](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Combo%20PS2%20KB%20MS.jpg?raw=true)
+![Combo PS/2 Keyboard/Mouse on PC](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Combo%20PS2%20KB%20MS%20on%20PC.jpg?raw=true)
+
 ### Copyright and License:
 - Copyright (C) 2022 - serisman (github@serisman.com)
 - License: [GPL v3 (or later)](LICENSE)
