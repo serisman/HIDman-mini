@@ -5,6 +5,7 @@ Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman) by [ra
 
 ### PCBs
 - [HIDman-mini](KiCad%20PCBs/HIDman-mini/)
+- [HIDman-micro](KiCad%20PCBs/HIDman-micro/)
 - [DB9-to-TTL](KiCad%20PCBs/DB9-to-TTL/)
 
 ### 3D Printer Models
