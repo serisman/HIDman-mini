@@ -13,7 +13,8 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/km98qti3) or upload [ge
 - Resistors are 0603
 - Capacitors are 0603 (100n and 3u3) and 0805 (10u)
 
-**WARNING!** This uses a different pinout than HIDman-mini.  Runtime detection can read P4.7, check if it LOW or floating, and adjust the PS/2 pins accordingly.
+**WARNING!** This uses a different pinout than HIDman-mini.  Runtime detection can read P4.7, check if it is LOW or floating, and adjust the PS/2 pins accordingly.
+
 ![Schematic](https://github.com/serisman/HIDman-mini/blob/main/KiCad%20PCBs/HIDman-micro/output/Schematic.png?raw=true)
 
 ### 3D Render
