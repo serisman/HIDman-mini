@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\GitHub\\HIDman-mini\\KiCad PCBs\\HIDman-micro\\pcb.sch")
-    (date "12/23/2022 8:34:31 PM")
+    (date "12/26/2022 11:18:26 AM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -31,7 +31,7 @@
       (tstamp 637EE8AE))
     (comp (ref U1)
       (value CH559T)
-      (footprint Package_SO:SSOP-20_5.3x7.2mm_P0.65mm)
+      (footprint USER_Footprints:SSOP-20_5.3x7.2mm_P0.65mm)
       (libsource (lib CH55x) (part CH559T) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 637EACFC))

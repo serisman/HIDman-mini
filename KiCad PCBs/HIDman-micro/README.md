@@ -1,7 +1,7 @@
 [Home](/README.md)
 # PCB: HIDman-micro
 
-Order from [OSHPARK](https://oshpark.com/shared_projects/km98qti3) or upload [gerber.zip](output/gerber.zip) to your favorite PCB board fabricator.
+Order from [OSHPARK](https://oshpark.com/shared_projects/RKMXx0oz) or upload [gerber.zip](output/gerber.zip) to your favorite PCB board fabricator.
 
 ### Notes:
 - **WARNING!** Make sure you install the USB port in the correct orientation!
