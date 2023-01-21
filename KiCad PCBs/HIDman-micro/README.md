@@ -17,6 +17,8 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/RKMXx0oz) or upload [ge
 
 **WARNING!** This uses a different pinout than HIDman-mini.  Runtime detection can read P4.7, check if it is LOW or floating, and adjust the PS/2 pins accordingly.
 
+**Note: A pull request has been submitted upstream, but until it is approved use the code from this fork: https://github.com/serisman/HIDman**
+
 ![Schematic](https://github.com/serisman/HIDman-mini/blob/main/KiCad%20PCBs/HIDman-micro/output/Schematic.png?raw=true)
 
 ### Soldered PCB
