@@ -8,9 +8,9 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/GPxhWAbz) or upload [ge
 - **WARNING!** Make sure you install the USB port(s) in the correct orientation!
 - **WARNING!** Double and Triple check your PS/2 cable pinout to make sure you don't feed 5V where it shouldn't go!
 
-![Profile](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Side.jpg?raw=true)
+![Profile](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Side.jpg?raw=true)
 
-![Soldered](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Top%20&%20Bottom.jpg?raw=true)
+![Soldered](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Top%20&%20Bottom.jpg?raw=true)
 
 ### Schematic
 - USB port P1 (on bottom side) is required for loading code, and can be used for USB keyboard/mouse (including keyboard/mouse combo wireless adapters).  It can be installed in the middle of the PCB if USB port P2 is not installed.
@@ -26,8 +26,8 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/GPxhWAbz) or upload [ge
 ![Schematic](https://github.com/serisman/HIDman-mini/blob/main/KiCad%20PCBs/HIDman-mini/output/Schematic.png?raw=true)
 
 ### Soldered PCB
-![Top](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Top.jpg?raw=true)
-![Bottom](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Bottom.jpg?raw=true)
+![Top](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Top.jpg?raw=true)
+![Bottom](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Bottom.jpg?raw=true)
 
 ### Raw PCB
 ![PCB Top](https://github.com/serisman/HIDman-mini/blob/main/KiCad%20PCBs/HIDman-mini/output/PCB%20Top.jpg?raw=true)

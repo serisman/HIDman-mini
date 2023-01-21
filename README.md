@@ -12,7 +12,7 @@ Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman) by [ra
 - [Cover for HIDman-mini](3D%20Printer%20Models/HIDman-mini/)
 - [Shell for DB9-to-TTL](3D%20Printer%20Models/DB9-Shell/)
 
-![Finished](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Finished.jpg?raw=true)
+![Finished](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Finished.jpg?raw=true)
 
 ### Schematics
 (for HIDman-mini)
@@ -25,8 +25,8 @@ NOTE: Remember to cross-over TxD <--> RxD, and RTS <--> CTS when connecting the 
 
 ### Optional Configuration: Combo PS/2 Keyboard/Mouse Connector
 (for computers that support it)
-![Combo PS/2 Keyboard/Mouse](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Combo%20PS2%20KB%20MS.jpg?raw=true)
-![Combo PS/2 Keyboard/Mouse on PC](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini%20-%20Combo%20PS2%20KB%20MS%20on%20PC.jpg?raw=true)
+![Combo PS/2 Keyboard/Mouse](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Combo%20PS2%20KB%20MS.jpg?raw=true)
+![Combo PS/2 Keyboard/Mouse on PC](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-mini/Combo%20PS2%20KB%20MS%20on%20PC.jpg?raw=true)
 
 ### Copyright and License:
 - Copyright (C) 2022 - serisman (github@serisman.com)

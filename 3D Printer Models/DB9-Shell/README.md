@@ -10,12 +10,12 @@
 - [.STL](DB9-Shell.stl)
 - [Fusion 360 Design](DB9-Shell.f3d)
 
-![Installed](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9-to-TTL%20-%20Shell%20Installed.jpg?raw=true)
+![Installed](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9-to-TTL/Shell%20Installed.jpg?raw=true)
 
 ![3D Printed](https://github.com/serisman/HIDman-mini/blob/main/3D%20Printer%20Models/DB9-Shell/DB9-Shell.jpg?raw=true)
 
 ### Grind back of holes
-![Grind back](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9%20-%20grind%20back.jpg?raw=true)
+![Grind back](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9-to-TTL/DB9%20-%20grind%20back.jpg?raw=true)
 
 ### Countersink front of holes
-![Countersink front](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9%20-%20countersink%20front.jpg?raw=true)
+![Countersink front](https://github.com/serisman/HIDman-mini/blob/main/pictures/DB9-to-TTL/DB9%20-%20countersink%20front.jpg?raw=true)
