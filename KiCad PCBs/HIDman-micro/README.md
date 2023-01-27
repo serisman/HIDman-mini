@@ -9,6 +9,18 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/RKMXx0oz) or upload [ge
 
 ![Profile](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-micro/Compared%20to%20PS2%20Cable%202.jpg?raw=true)
 
+### Firmware
+
+Compatible with HIDman firmware: https://github.com/rasteri/HIDman
+
+```
+make clean
+make BOARD_TYPE=HIDMAN_MICRO flash
+... or (if you want to swap Keyboard-Data with Mouse-Clock for easier soldering of combo PS/2 port) ...
+make clean
+make BOARD_TYPE=HIDMAN_MICRO BOARD_OPTIONS=OPT_SWAP_KBD_MSC flash
+```
+
 ### Schematic
 - USB port P1 (on bottom side) is required for loading code, and can be used for USB keyboard/mouse (including keyboard/mouse combo wireless adapters).
 - Hold down SW1 while plugging USB port into computer to force bootloader.
@@ -18,8 +30,6 @@ Order from [OSHPARK](https://oshpark.com/shared_projects/RKMXx0oz) or upload [ge
 **WARNING!** This uses a different pinout than HIDman-mini.  Runtime detection can read P4.7, check if it is LOW or floating, and adjust the PS/2 pins accordingly.
 
 ![Schematic](https://github.com/serisman/HIDman-mini/blob/main/KiCad%20PCBs/HIDman-micro/output/Schematic.png?raw=true)
-
-**Note: A pull request has been submitted upstream, but until it is approved use the code from this fork: https://github.com/serisman/HIDman**
 
 ### Soldered PCB
 ![Top](https://github.com/serisman/HIDman-mini/blob/main/pictures/HIDman-micro/Top.jpg?raw=true)
