@@ -3,8 +3,8 @@ A USB keyboard/mouse to PS/2 (or AT, Serial) computer adapter.
 
 Based on and compatible with: [HIDman](https://github.com/rasteri/HIDman) by [rasteri](https://github.com/rasteri)
  - In the Makefile, make sure the correct `BOARD_TYPE` is selected and then make sure `OSC_TYPE = OSC_INTERNAL` is enabled and `OSC_TYPE = OSC_EXTERNAL` is disabled.  Re-compile and flash the firmware following the instructions found in the HIDman firmware.
-   - For the -mini: Choose `BOARD_TYPE = BOARD_AXP` (for ps/2 and serial support), or `BOARD_TYPE = BOARD_MINI` (for just ps/2 support).
-   - For the -micro: Choose `BOARD_TYPE = BOARD_MICRO` (only has ps/2 support).
+   - For HIDman-mini: Choose `BOARD_TYPE = BOARD_AXP` (for ps/2 and serial support), or `BOARD_TYPE = BOARD_MINI` (for just ps/2 support).
+   - For HIDman-micro: Choose `BOARD_TYPE = BOARD_MICRO` (only has ps/2 support).
      - Optionally switch to `BOARD_OPTIONS = OPT_SWAP_KBD_MSC` to make it a bit easier to wire up a combo ps/2 port.
 
 ### PCBs
