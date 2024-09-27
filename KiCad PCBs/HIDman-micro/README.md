@@ -15,10 +15,10 @@ Compatible with HIDman firmware: https://github.com/rasteri/HIDman
 
 ```
 make clean
-make BOARD_TYPE=HIDMAN_MICRO flash
+make BOARD_TYPE=HIDMAN_MICRO OSC_TYPE=OSC_INTERNAL flash
 ... or (if you want to swap Keyboard-Data with Mouse-Clock for easier soldering of combo PS/2 port) ...
 make clean
-make BOARD_TYPE=HIDMAN_MICRO BOARD_OPTIONS=OPT_SWAP_KBD_MSC flash
+make BOARD_TYPE=HIDMAN_MICRO BOARD_OPTIONS=OPT_SWAP_KBD_MSC OSC_TYPE=OSC_INTERNAL flash
 ```
 
 ### Schematic
